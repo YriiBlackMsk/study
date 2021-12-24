@@ -29,7 +29,8 @@ class MyApp extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(children: [
                 SizedBox(height: 150,),
-                SizedBox(width: 110, height: 84, child: Placeholder(),),
+                SizedBox(width: 110, height: 84,
+                  child: Image(image: AssetImage('assets/img.png')),),
                 SizedBox(height: 20,),
                 Text('Введите логин в виде 10 цифр номера телефона', 
                   style: TextStyle(fontSize: 16, color: Color.fromRGBO(0, 0, 0, 0.6) ),),
